@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrapper{
+    background: url('img.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+}
+.logo{
+    width: 120px;
+    height: 60px;
+    padding: 10px 10px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px ;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: red;
+    border-radius: 2px;
+}
+.wrapper .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+.center h1{
+    color: rgb(18, 248, 37);
+    font-size: 70px;
+    font-weight: bold;
+    width: 1000px;
+    text-align: center;
+}
+.center h2{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+    width: 885px;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.center .buttons{
+    text-align: center;
+    margin: 35px 280px;
+}
+.buttons input[type="submit"]{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffb3b3;
+    background: red;
+    border: 1px solid #cf1010;
+    outline:none;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: .4s;
+}
+.buttons input[type="submit"]:hover{
+    background: #cc0000;
+}
